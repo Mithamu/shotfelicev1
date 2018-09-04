@@ -125,19 +125,14 @@
   z-index: 100; }
 
 /* line 3, lib/_bttn.scss */
-.bttn-primary,
-.bttn,
-.bttn-lg,
-.bttn-md,
-.bttn-sm,
-.bttn-xs {
+.bttn-md {
   color: #1d89ff; }
 
-/* line 11, lib/_bttn.scss */
+/* line 6, lib/_bttn.scss */
 .bttn-warning {
   color: #feab3a; }
 
-/* line 15, lib/_bttn.scss */
+/* line 10, lib/_bttn.scss */
 .bttn-md {
   margin: 0;
   padding: 0;
@@ -148,13 +143,13 @@
   cursor: pointer;
   position: relative; }
 
-/* line 26, lib/_bttn.scss */
+/* line 21, lib/_bttn.scss */
 .bttn-md {
   font-size: 20px;
   font-family: inherit;
   padding: 5px 12px; }
 
-/* line 33, lib/_bttn.scss */
+/* line 28, lib/_bttn.scss */
 .bttn-unite {
   margin: 0;
   padding: 0;
@@ -169,14 +164,14 @@
   padding: 5px 12px;
   z-index: 0;
   overflow: hidden;
-  border-top: 1px solid #1d89ff;
-  border-bottom: 1px solid #1d89ff;
+  border-top: 1.5px solid #1d89ff;
+  border-bottom: 1.5px solid #1d89ff;
   background: none;
   color: #1d89ff;
   -webkit-transition: color 0.1s cubic-bezier(0.02, 0.01, 0.47, 1), border-color 0.1s cubic-bezier(0.02, 0.01, 0.47, 1);
   transition: color 0.1s cubic-bezier(0.02, 0.01, 0.47, 1), border-color 0.1s cubic-bezier(0.02, 0.01, 0.47, 1); }
 
-/* line 55, lib/_bttn.scss */
+/* line 50, lib/_bttn.scss */
 .bttn-unite:before {
   position: absolute;
   top: 0;
@@ -194,7 +189,7 @@
   -webkit-transform: translate3d(-110%, -10%, 0) skewX(-20deg);
   transform: translate3d(-110%, -10%, 0) skewX(-20deg); }
 
-/* line 72, lib/_bttn.scss */
+/* line 67, lib/_bttn.scss */
 .bttn-unite:after {
   position: absolute;
   top: 0;
@@ -212,7 +207,7 @@
   -webkit-transform: translate3d(110%, -10%, 0) skewX(-20deg);
   transform: translate3d(110%, -10%, 0) skewX(-20deg); }
 
-/* line 89, lib/_bttn.scss */
+/* line 84, lib/_bttn.scss */
 .bttn-unite:hover,
 .bttn-unite:focus {
   -webkit-box-shadow: 0 1px 8px rgba(58, 51, 53, 0.3);
@@ -221,7 +216,7 @@
   -webkit-transition: all 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
   transition: all 0.2s cubic-bezier(0.02, 0.01, 0.47, 1); }
 
-/* line 96, lib/_bttn.scss */
+/* line 91, lib/_bttn.scss */
 .bttn-unite:hover:before,
 .bttn-unite:focus:before {
   opacity: 1;
@@ -232,7 +227,7 @@
   -webkit-transform: translate3d(-50%, -10%, 0) skewX(-20deg);
   transform: translate3d(-50%, -10%, 0) skewX(-20deg); }
 
-/* line 106, lib/_bttn.scss */
+/* line 101, lib/_bttn.scss */
 .bttn-unite:hover:after,
 .bttn-unite:focus:after {
   opacity: 1;
@@ -243,82 +238,88 @@
   -webkit-transform: translate3d(50%, -10%, 0) skewX(-20deg);
   transform: translate3d(50%, -10%, 0) skewX(-20deg); }
 
-/* line 117, lib/_bttn.scss */
+/* line 112, lib/_bttn.scss */
 .bttn-unite.bttn-md {
   font-size: 20px;
   font-family: inherit;
   padding: 5px 12px; }
 
-/* line 122, lib/_bttn.scss */
+/* line 117, lib/_bttn.scss */
 .bttn-unite.bttn-md:hover,
 .bttn-unite.bttn-md:focus {
   -webkit-box-shadow: 0 1px 8px rgba(58, 51, 53, 0.3);
           box-shadow: 0 1px 8px rgba(58, 51, 53, 0.3); }
 
-/* line 126, lib/_bttn.scss */
+/* line 121, lib/_bttn.scss */
 .bttn-unite.bttn-warning {
   border-color: #feab3a;
   color: #ffffff; }
 
-/* line 130, lib/_bttn.scss */
+/* line 125, lib/_bttn.scss */
 .bttn-unite.bttn-warning:hover,
 .bttn-unite.bttn-warning:focus {
   background: #feab3a;
   color: #fff; }
 
-/* line 135, lib/_bttn.scss */
+/* line 130, lib/_bttn.scss */
 .bttn-unite.bttn-warning:before {
   background: #f89001; }
 
-/* line 138, lib/_bttn.scss */
+/* line 133, lib/_bttn.scss */
 .bttn-unite.bttn-warning:after {
   background: #feab3a; }
 
-/* line 142, lib/_bttn.scss */
+/* line 139, lib/_bttn.scss */
 #page_top {
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   position: fixed;
   right: 10%;
   bottom: 10%;
-  background: #41a9bb;
-  opacity: 0.8;
+  background: #fc940a;
   border-radius: 50%;
+  border: solid 2px white;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   z-index: 10; }
+  /* line 150, lib/_bttn.scss */
+  #page_top:hover {
+    background: #ffaa39; }
 
-/* line 153, lib/_bttn.scss */
+/* line 154, lib/_bttn.scss */
 #page_top a {
   position: relative;
   display: block;
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   text-decoration: none; }
 
-/* line 160, lib/_bttn.scss */
+/* line 162, lib/_bttn.scss */
 #page_top a::before {
   font-family: FontAwesome;
   content: '\f102';
-  font-size: 25px;
+  font-size: 28px;
   color: #fff;
   position: absolute;
   width: 25px;
   height: 25px;
   top: -40px;
   bottom: 0;
-  right: 0;
+  right: 3px;
   left: 0;
   margin: auto;
   text-align: center; }
 
-/* line 175, lib/_bttn.scss */
+/* line 177, lib/_bttn.scss */
 #page_top a::after {
   content: 'TOP';
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: bold;
   color: #fff;
   position: absolute;
-  top: 35px;
+  top: 40px;
   bottom: 0;
-  right: 0;
+  right: 2px;
   left: 0;
   margin: auto;
   text-align: center; }
@@ -1860,7 +1861,7 @@ a:focus, *:focus {
         .home-head-navigation ul li {
           list-style: none;
           background: #fefefe;
-          border-left: 1px solid #eee;
+          border-left: 1px solid #ddd;
           height: 100%;
           -webkit-transition: 0.1s;
           transition: 0.1s;
@@ -1868,7 +1869,7 @@ a:focus, *:focus {
                   box-shadow: 0px 0px 10px 10px transparent; }
           /* line 66, _home.scss */
           .home-head-navigation ul li:last-child {
-            border-right: 1px solid #eee; }
+            border-right: 1px solid #ddd; }
           @media only screen and (max-width: 640px) {
             /* line 60, _home.scss */
             .home-head-navigation ul li {
@@ -1878,8 +1879,8 @@ a:focus, *:focus {
             z-index: 1;
             -webkit-transition: 0.4s;
             transition: 0.4s;
-            -webkit-box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.03);
-                    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.03); }
+            -webkit-box-shadow: 0px -10px 10px 10px rgba(0, 0, 0, 0.04);
+                    box-shadow: 0px -10px 10px 10px rgba(0, 0, 0, 0.04); }
           /* line 79, _home.scss */
           .home-head-navigation ul li a {
             display: -webkit-box;
@@ -1896,15 +1897,14 @@ a:focus, *:focus {
             text-decoration: none;
             font-family: Helvetica;
             font-size: 14px;
-            font-weight: normal;
+            font-weight: bold;
             font-style: normal;
             font-stretch: normal;
             letter-spacing: 4px;
             text-align: left;
-            color: #555555;
+            color: #666;
             -webkit-transition: color 0.1s;
-            transition: color 0.1s;
-            letter-spacing: 5.7px; }
+            transition: color 0.1s; }
             @media only screen and (max-width: 1023px) {
               /* line 79, _home.scss */
               .home-head-navigation ul li a {
@@ -1916,26 +1916,28 @@ a:focus, *:focus {
                 padding: 0 10px;
                 letter-spacing: 1.5px;
                 font-size: 12px; } }
-            /* line 105, _home.scss */
+            /* line 104, _home.scss */
             .home-head-navigation ul li a:hover {
               color: #393939;
               -webkit-transition: color 0.5s;
               transition: color 0.5s; }
-  /* line 115, _home.scss */
+  /* line 114, _home.scss */
   .home-body {
     width: 100%;
     height: 100%;
     -webkit-box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2) inset;
             box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2) inset;
-    background-image: radial-gradient(farthest-corner at 40% 50%, #fefefe, #dddddd);
+    background-image: radial-gradient(#f2f2f2 30%, rgba(0, 0, 0, 0) 0%), radial-gradient(farthest-corner at 40% 50%, #ffffff, #f5f5f5);
+    background-size: 10px 10px, 100%;
+    background-repeat: repeat, no-repeat;
     position: relative; }
-    /* line 122, _home.scss */
+    /* line 124, _home.scss */
     .home-body canvas {
       position: absolute;
       top: 0;
       left: 0;
       z-index: 1; }
-    /* line 128, _home.scss */
+    /* line 130, _home.scss */
     .home-body-catchphrase {
       height: 100%;
       display: -webkit-box;
@@ -1954,10 +1956,10 @@ a:focus, *:focus {
       padding: 0 14%;
       text-align: right; }
       @media only screen and (max-width: 1023px) {
-        /* line 128, _home.scss */
+        /* line 130, _home.scss */
         .home-body-catchphrase {
           padding: 0 10%; } }
-      /* line 141, _home.scss */
+      /* line 143, _home.scss */
       .home-body-catchphrase .title {
         margin-top: -5%;
         display: -webkit-box;
@@ -1968,7 +1970,7 @@ a:focus, *:focus {
             -ms-flex-direction: row;
                 flex-direction: row;
         font-family: Helvetica;
-        font-size: 60px;
+        font-size: 66px;
         font-weight: 500;
         font-style: normal;
         font-stretch: normal;
@@ -1976,14 +1978,14 @@ a:focus, *:focus {
         letter-spacing: 4.5px;
         text-align: right; }
         @media only screen and (max-width: 1023px) {
-          /* line 141, _home.scss */
+          /* line 143, _home.scss */
           .home-body-catchphrase .title {
             font-size: 45px; } }
         @media only screen and (max-width: 640px) {
-          /* line 141, _home.scss */
+          /* line 143, _home.scss */
           .home-body-catchphrase .title {
             font-size: 65px; } }
-        /* line 159, _home.scss */
+        /* line 161, _home.scss */
         .home-body-catchphrase .title .phrase {
           display: -webkit-box;
           display: -ms-flexbox;
@@ -1995,7 +1997,7 @@ a:focus, *:focus {
           -webkit-box-align: end;
               -ms-flex-align: end;
                   align-items: flex-end; }
-          /* line 164, _home.scss */
+          /* line 166, _home.scss */
           .home-body-catchphrase .title .phrase .wrapper {
             display: -webkit-box;
             display: -ms-flexbox;
@@ -2006,38 +2008,42 @@ a:focus, *:focus {
                     flex-direction: row;
             margin-right: -5px; }
             @media only screen and (max-width: 640px) {
-              /* line 164, _home.scss */
+              /* line 166, _home.scss */
               .home-body-catchphrase .title .phrase .wrapper {
                 -webkit-box-orient: vertical;
                 -webkit-box-direction: normal;
                     -ms-flex-direction: column;
                         flex-direction: column; } }
-          /* line 172, _home.scss */
+            /* line 174, _home.scss */
+            .home-body-catchphrase .title .phrase .wrapper .movie-photo {
+              width: 500px; }
+          /* line 178, _home.scss */
           .home-body-catchphrase .title .phrase .photo {
             color: #555555; }
-          /* line 175, _home.scss */
+          /* line 181, _home.scss */
           .home-body-catchphrase .title .phrase .slash {
             color: #555555; }
             @media only screen and (max-width: 640px) {
-              /* line 175, _home.scss */
+              /* line 181, _home.scss */
               .home-body-catchphrase .title .phrase .slash {
                 display: none; } }
-          /* line 182, _home.scss */
+          /* line 188, _home.scss */
           .home-body-catchphrase .title .phrase .movie {
             color: #aacd06; }
-        /* line 187, _home.scss */
-        .home-body-catchphrase .title .line {
-          width: 90%;
-          height: 2px;
+        /* line 194, _home.scss */
+        .home-body-catchphrase .title .line-down {
+          width: 100%;
+          height: 1px;
           border-style: solid;
           border-width: 1.5px;
           border-image-source: linear-gradient(to right, #555555, #add200);
-          border-image-slice: 1; }
+          border-image-slice: 1;
+          margin-top: -5px; }
           @media only screen and (max-width: 640px) {
-            /* line 187, _home.scss */
-            .home-body-catchphrase .title .line {
+            /* line 194, _home.scss */
+            .home-body-catchphrase .title .line-down {
               display: none; } }
-      /* line 201, _home.scss */
+      /* line 209, _home.scss */
       .home-body-catchphrase .catchphrase {
         margin-top: 30px;
         font-size: 14px;
@@ -2048,7 +2054,7 @@ a:focus, *:focus {
         letter-spacing: 2.5px;
         color: #555555;
         text-shadow: 0 2px 3px rgba(255, 255, 255, 0.9); }
-  /* line 215, _home.scss */
+  /* line 223, _home.scss */
   .home .background_image1 {
     position: absolute;
     -webkit-transform: rotate(2deg);
@@ -2058,15 +2064,16 @@ a:focus, *:focus {
     height: 115%;
     width: auto; }
     @media only screen and (max-width: 1023px) {
-      /* line 215, _home.scss */
+      /* line 223, _home.scss */
       .home .background_image1 {
         left: 7%; } }
     @media only screen and (max-width: 640px) {
-      /* line 215, _home.scss */
+      /* line 223, _home.scss */
       .home .background_image1 {
         display: none; } }
-  /* line 229, _home.scss */
+  /* line 237, _home.scss */
   .home .background_image2 {
+    display: none;
     position: absolute;
     -webkit-transform: rotate(-330deg);
             transform: rotate(-330deg);
@@ -2074,11 +2081,11 @@ a:focus, *:focus {
     top: 20%;
     height: 8%; }
     @media only screen and (max-width: 1023px) {
-      /* line 229, _home.scss */
+      /* line 237, _home.scss */
       .home .background_image2 {
         left: 12%; } }
     @media only screen and (max-width: 640px) {
-      /* line 229, _home.scss */
+      /* line 237, _home.scss */
       .home .background_image2 {
         height: 10%;
         left: 5%;
@@ -2122,8 +2129,8 @@ a:focus, *:focus {
     /* line 14, _title.scss */
     .service-head-line {
       width: 100px;
-      height: 1.5px;
-      border: solid 2px #aacd06;
+      height: 2px;
+      border: solid 3px #aacd06;
       margin-right: 5px; }
     /* line 20, _title.scss */
     .service-head-subtitle {
@@ -2351,8 +2358,8 @@ a:focus, *:focus {
     /* line 14, _title.scss */
     .price-head-line {
       width: 100px;
-      height: 1.5px;
-      border: solid 2px #aacd06;
+      height: 2px;
+      border: solid 3px #aacd06;
       margin-right: 5px; }
     /* line 20, _title.scss */
     .price-head-subtitle {
@@ -2443,7 +2450,7 @@ a:focus, *:focus {
     .contact-head-line {
       width: 100px;
       height: 1.5px;
-      border: solid 2px white;
+      border: solid 3px white;
       margin-right: 5px; }
     /* line 34, _contact.scss */
     .contact-head-subtitle {
@@ -2527,7 +2534,7 @@ a:focus, *:focus {
           line-height: normal;
           letter-spacing: 3.2px;
           color: #ffffff;
-          border: solid 1px white;
+          border: solid 2px white;
           padding: 15px 20px;
           border-radius: 5px; }
           /* line 116, _contact.scss */
@@ -2566,8 +2573,8 @@ a:focus, *:focus {
     /* line 14, _title.scss */
     .message-head-line {
       width: 100px;
-      height: 1.5px;
-      border: solid 2px #aacd06;
+      height: 2px;
+      border: solid 3px #aacd06;
       margin-right: 5px; }
     /* line 20, _title.scss */
     .message-head-subtitle {
