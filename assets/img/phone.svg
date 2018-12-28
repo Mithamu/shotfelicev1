@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="18px" height="14px" viewBox="0 0 18 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title></title>
+    <title>phone - simple-line-icons</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <rect id="path-1" x="0" y="0" width="1280" height="447"></rect>
@@ -12,20 +12,22 @@
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
     </defs>
-    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-409.000000, -2244.000000)">
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-408.000000, -2280.000000)">
         <g id="Group-7" transform="translate(-80.000000, 116.000000)">
             <g id="Contact" transform="translate(80.000000, 1934.000000)">
                 <g id="backgrond-copy">
                     <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
                     <use fill-opacity="0" fill="#F7F7F7" fill-rule="evenodd" xlink:href="#path-1"></use>
                 </g>
-                <g id="Group-6" transform="translate(365.000000, 66.000000)">
+                <g id="Group-6" transform="translate(365.000000, 66.000000)" fill="#000000">
                     <g id="body" transform="translate(0.000000, 106.000000)">
                         <g id="info">
-                            <g id="grid"></g>
-                            <g id="mail" transform="translate(43.000000, 19.000000)" fill="#000000" font-family="material" font-size="20" font-weight="normal">
-                                <text id="">
-                                    <tspan x="0" y="17"></tspan>
+                            <g id="grid" fill-opacity="0.0199999996">
+                                <rect id="Rectangle-9" x="0" y="50" width="554" height="37"></rect>
+                            </g>
+                            <g id="phone" transform="translate(43.000000, 58.000000)" font-family="simple-line-icons" font-size="20" font-weight="normal">
+                                <text id="phone---simple-line-icons">
+                                    <tspan x="0" y="19"></tspan>
                                 </text>
                             </g>
                         </g>
